@@ -1,0 +1,204 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+}
+.contents{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.intro_bg{
+    background-image: url(./backgroundimg/백그라운드/intro.jpg);
+    width: 100%;
+    height: 714px;
+}
+.header{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    height: 86px;
+}
+.searchArea{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 24px;
+    padding: 6px;
+}
+.searchArea > form > span{
+    width: 50px;
+    color: #fff;
+}
+.nav > li {
+    margin-left: 84px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(1280px - 300px);
+    line-height: 86px;
+}
+.nav > li > a{
+    color: #000;
+}
+
+.amount{
+    position: relative;
+    top:-66px;
+    display: flex;
+    width: 1280px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+
+}
+.amount > li {
+    flex: 1;
+    height: 132px;
+}
+.amount > li > div {
+    text-align: center;
+    margin-top: 37px;
+    height: 57px;
+}
+.amount > li:not(:last-child) > div {
+    border-right: 1px solid #e1e1e1;
+}
+.intro_text{
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    margin: 430px 0px 40px 35px;
+}
+.intro_text > h1{
+    color: #fff;
+}
+.intro_text > h4{
+    color: #fff;
+    margin-left: 15px;
+}
+.searchArea > form > button{
+    margin: 10px;
+    box-sizing: border-box;
+}
+.search_bt{
+    border: 1px solid skyblue;
+    background-color: rgba(0, 0, 0, 0);
+    color: skyblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.search_bt:hover{
+    color: white;
+    background-color: skyblue;
+}
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contents2{
+    font-size: 18px;
+}
+.contents3{
+    font-size: 14px;
+    font-weight: 100;
+}
+.contents1_bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+.main_text0{
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background: #f1f2f3;
+}
+.main_text0 > h1{
+    padding-top: 116px;
+    text-align: center;
+}
+.main_text0 > .contents1{
+    text-align: center;
+}
+.bt_01{
+    border: 1px solid white;
+    background-color: rgb(137, 197, 231);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.icons{
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: auto;
+}
+.icons > li{
+    flex: 1;
+    background: white;
+    margin-top: 49px;
+    height: 302px;
+    text-align: center;
+}
+.bt_01:hover{
+    color: black;
+    background-color: rgb(43, 119, 163);
+}
+.icons > li > .icon_img{
+    margin-top: 36px;
+}
+.icons > li:not(:last-child){
+    margin-right: 20px;
+}
+.icons .contents2{
+    width: 280px;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.main_text2{
+    width: 100%;
+    height: 418px;
+    background-image: url(./backgroundimg/백그라운드/park.jpg);
+}
+.main_text2 > ul{
+    display: flex;
+    padding-top: 138px;
+}
+.main_text2 > ul > li{
+    flex: 1;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    background: white;
+    padding: 30px;
+}
+.footer > div:first-child{
+    flex: 3;
+    text-align: center;
+    color: black;
+}
+.footer > div:last-child{
+    flex: 9;
+    color: black;
+}
+.main_text1{
+    width: 100%;
+    height: 659px;
+}
+.main_text1 > h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.main_text1 > .contents1{
+    text-align: center;
+}
